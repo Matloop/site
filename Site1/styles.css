@@ -1,0 +1,119 @@
+header{
+    text-align: center;
+    font-size: 75px;
+    margin: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    animation: changeColor 2s infinite;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.div-header{
+    background-color: blueviolet;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    animation: pulse 2s infinite;
+}
+  
+@keyframes changeColor {
+    0% {
+        color: #FF5733; /* Inicia com vermelho */
+    }
+    50% {
+        color: #33FF57; /* Muda para verde */
+    }
+    100% {
+        color: #FF5733; /* Volta para vermelho */
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1); /* Tamanho normal */
+    }
+    50% {
+        transform: scale(1.2); /* Aumenta um pouco */
+    }
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: transform 0.3s ease; /* Transição suave para transformações */
+    margin: 0 auto;
+}
+
+.box:hover {
+    transform: scale(5); /* Aumenta o tamanho da caixa ao passar o mouse */
+}
+
+.changeColor{
+    animation: changeColor 2s infinite;
+}
+
+/* Estilos para a página Sobre */
+.sobre {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.foto-perfil {
+    max-width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 2rem auto;
+}
+
+.sobre h1 {
+    text-align: center;
+    color: #333;
+}
+
+.sobre h2 {
+    color: #444;
+    margin-top: 2rem;
+}
+
+.sobre p, .sobre ul {
+    line-height: 1.6;
+}
+
+.sobre ul {
+    padding-left: 2rem;
+}
+
+/* Estilos para a navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover, nav ul li a.ativo {
+    color: #007bff;
+}
