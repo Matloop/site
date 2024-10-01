@@ -62,3 +62,75 @@ img{
 .changeColor{
     animation: changeColor 2s infinite;
 }
+
+/* Estilos para a página Sobre */
+.sobre {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.foto-perfil {
+    max-width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 2rem auto;
+}
+
+.sobre h1 {
+    text-align: center;
+    color: #333;
+}
+
+.sobre h2 {
+    color: #444;
+    margin-top: 2rem;
+}
+
+.sobre p, .sobre ul {
+    line-height: 1.6;
+}
+
+.sobre ul {
+    padding-left: 2rem;
+}
+
+/* Estilos para a navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover, nav ul li a.ativo {
+    color: #007bff;
+}
+
+.experiencia-fotos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.experiencia-foto {
+    width: 32%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.oracle-text {
+    color: red; /* Define a cor vermelha */
+}

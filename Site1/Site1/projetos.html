@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos do Arquelau</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="projetos.html" class="ativo">Projetos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="projetos">
+            <h1>Projetos do Arquelau</h1>
+            <article class="projeto" data-projeto="1">
+                <img src="imagem-projeto-1.jpg" alt="Projeto 1">
+                <h2>Projeto 1</h2>
+                <p>Descrição breve do Projeto 1.</p>
+                <button class="ver-mais">Ver mais</button>
+            </article>
+
+            <article class="projeto" data-projeto="2">
+                <img src="imagem-projeto-2.jpg" alt="Projeto 2">
+                <h2>Projeto 2</h2>
+                <p>Descrição breve do Projeto 2.</p>
+                <button class="ver-mais">Ver mais</button>
+            </article>
+
+            <article class="projeto" data-projeto="3">
+                <img src="imagem-projeto-3.jpg" alt="Projeto 3">
+                <h2>Projeto 3</h2>
+                <p>Descrição breve do Projeto 3.</p>
+                <button class="ver-mais">Ver mais</button>
+            </article>
+        </section>
+    </main>
+
+    <div id="modal" class="modal">
+        <div class="modal-conteudo">
+            <span class="fechar">&times;</span>
+            <h2 id="modal-titulo"></h2>
+            <p id="modal-descricao"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Arquelau. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
